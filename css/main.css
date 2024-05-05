@@ -1,0 +1,17 @@
+@keyframes animatedBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background: radial-gradient(circle, #8c7ba7, #355c7d, #6c5b7b);
+  background-size: 400% 400%;
+  animation: animatedBackground 15s ease-in-out infinite;
+}
